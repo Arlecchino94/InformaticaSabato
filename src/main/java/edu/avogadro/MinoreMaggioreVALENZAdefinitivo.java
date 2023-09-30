@@ -16,17 +16,17 @@ public class MinoreMaggioreVALENZAdefinitivo {
         int num3 = scanner.nextInt();
 
         if (num1 > num2 && num1 > num3) {
-            System.out.println("Il numero maggiore è: " + num1);
+            System.out.println("Il primo numero è maggiore e vale: " + num1);
         } else if (num2 > num1 && num2 > num3) {
-            System.out.println("Il numero maggiore è: " + num2);
+            System.out.println("Il secondo numero è maggiore e vale: " + num2);
         } else {
-            System.out.println("Il numero maggiore è: " + num3);
+            System.out.println("Il terzo numero è maggiore e vale: " + num3);
         }
 
         if (num1 < num2 && num1 < num3) {
             System.out.println("Il primo numero è minore e vale: " + num1);
         } else if (num2 < num1 && num2 < num3) {
-            System.out.println("Il terzo numero è minore e vale: " + num2);
+            System.out.println("Il secondo numero è minore e vale: " + num2);
         } else {
             System.out.println("Il terzo numero è minore e vale: " + num3);
         }
