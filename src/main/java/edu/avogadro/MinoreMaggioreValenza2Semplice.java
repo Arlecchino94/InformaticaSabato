@@ -2,7 +2,7 @@ package edu.avogadro;
 
 import java.util.Scanner;
 
-public class MinoreMaggioreValenza2 {
+public class MinoreMaggioreValenza2Semplice {
     public static void main(String[] args) {
         Scanner lettore = new Scanner(System.in);
 
